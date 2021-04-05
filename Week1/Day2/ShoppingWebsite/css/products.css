@@ -1,0 +1,66 @@
+
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+  header {
+    background: rgb(240, 230, 178);
+    padding: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    float:right;
+    text-align:right;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+section {
+  color: gray;
+  padding: 20px;
+  display: inline-block;
+}
+.model {
+    border: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 5px 15px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.desc {
+    line-height: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+.price {
+    line-height: 8px;
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Calibri;
+}
