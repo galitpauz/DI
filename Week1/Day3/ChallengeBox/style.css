@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.sectionLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    align-items:stretch;
+}
+    .divLeft {
+        width: 80px;
+        height: 80px;
+        background: blueviolet
+    }
+
+.sectionCenter {
+    display: flex;
+    margin-top: 200px; 
+    width: 800px;
+    justify-content: space-around;
+
+}
+
+.divCenter {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+
+
+}
+
+.sectionRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+
+}
+
+.divRight {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+
