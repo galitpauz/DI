@@ -7,18 +7,10 @@ console.log(joinArr);
 //Mixup
 let str1 = "mix";
 let str2 = "pod";
+let newStr1 = str1.replace("x", "d");
+let newStr2 = str2.replace("d", "x");
 
-let X = str1[0];
-let Y = str2[0];
-console.log(X);
-
-
-// let mixup= (newStr1 + " " + newStr2);
-// console.log(mixup);
-// [a[3], a[4]] = [a[4], a[3]]
-
-
-
+console.log(newStr1, newStr2);
 
 //Calculator
 
