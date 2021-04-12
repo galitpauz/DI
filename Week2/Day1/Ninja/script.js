@@ -1,27 +1,27 @@
-// //Find Nemo
+//Find Nemo
 
-// let string = "I love the movie named Nemo !";
-// let strArray = string.split(" ");
-// console.log(strArray);
-// let position = strArray.indexOf("Nemo");
-// console.log(`I found Nemo at ${position}`);
+let string = "I love the movie named Nemo !";
+let strArray = string.split(" ");
+console.log(strArray);
+let position = strArray.indexOf("Nemo");
+console.log(`I found Nemo at ${position}`);
 
-// // Evaluation(2)
-// let c;
-// let a = 34;
-// let b = 21;
-// a = 2;
-// a + b
-// console.log(a + b);
-// console.log(c);
-// console.log(3 + 4 + '5');
+// Evaluation(2)
+let c;
+let a = 34;
+let b = 21;
+a = 2;
+a + b
+console.log(a + b);
+console.log(c);
+console.log(3 + 4 + '5');
 
-// //Ask For Numbers
-// let x = prompt("Enter a number");
-// let y = prompt("Enter a number");
-// let num1 = parseInt(x);
-// let num2 = parseInt(y);
-// console.log(num1+num2);
+//Ask For Numbers
+let x = prompt("Enter a number");
+let y = prompt("Enter a number");
+let num1 = parseInt(x);
+let num2 = parseInt(y);
+console.log(num1+num2);
 
 
 //Boom
