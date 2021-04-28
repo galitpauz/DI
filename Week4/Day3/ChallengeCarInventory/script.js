@@ -62,20 +62,3 @@ let inventory = [
 
 
 
-
-
-
-
-
-
-
-
-//Exercise 2 
-
-
-let sortCarInventoryByYear = (carInventory) => {
-    let sortedYear = carInventory.sort((x, y)=> x['car_year'] -y ['car_year'])
-    return sortedYear
-}
-
-console.log(sortCarInventoryByYear(inventory))
