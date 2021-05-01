@@ -1,0 +1,99 @@
+div {
+    width: 6%;
+    height: 6rem;
+    background-color: rgb(164, 185, 231);
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+  #div2 {animation-timing-function: ease;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  h2 {
+    animation: bounceIn 2s;
+    background: darkturquoise;
+    border-radius: 5px;
+    color: white;
+    font-family: lato;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 25px auto 0;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+  }
+
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
+  .button-hover1 {
+    border-radius: 5px;
+    color: darkturquoise;
+    font-family: lato;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 25px auto 0;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+
+.button-hover2 {
+    border-radius: 5px;
+    color: darkturquoise;
+    font-family: lato;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 25px auto 0;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.button-hover1:hover {
+    opacity: 0.2;
+}
+
+
+.button-hover2:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
