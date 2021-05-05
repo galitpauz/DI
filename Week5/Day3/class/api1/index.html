@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form onsubmit="event.pre"></form> form will refresh to disable this we need to use this or the next line
+
+    <form onsubmit="return false"></form> -->
+    <input id="search" type="text" name="" value="">
+    <input type="number" name="" id="limit" value="1" min="1" max="10">
+    <button type="button" name="button" onclick="fetchData()">Search!</button>
+    <button type="button" name="button" onClick="nextImages()">Next GIF's</button>
+    <button type="button" name="button" onclick="DeleteAll()">Delete All</button>
+    <div id="root"></div>
+    <script src="script.js"></script>
+
+<!-- 
+    <span>Search for a GIF:</span>
+    <input id= "search" type="text" >
+    <button type="button" name="button" onClick="fetchData()">
+      Get Gify Data
+    </button>
+    <button type="button" name="button" onclick="deleteAll()">
+      Delete All
+    </button>
+    <div id="root"></div>
+    <script src="script.js" charset="utf-8"></script> -->
+</body>
+</html>
