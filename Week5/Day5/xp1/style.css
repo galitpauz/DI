@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/67/02/32/670232f4144343e71cbe7b11b7f4e232.jpg");
+    font-family: 'Helvetica Neue';
+     text-align: center;
+    margin:  0 auto;
+
+}
+
+#title {
+    background: url(https://i.dlpng.com/static/png/253278_thumb.png) center center no-repeat;
+    width: 400px;
+    height: 300px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png) center center no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.wrapper {
+    display: block;
+}
+
+.container {
+    border: 3px solid yellow;
+    border-radius: 15px;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    color: cornsilk;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
