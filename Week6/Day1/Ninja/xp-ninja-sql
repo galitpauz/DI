@@ -1,0 +1,8 @@
+-- For the following questions, you have to fetch the first_names, last_names and birth_dates of the students.
+
+-- Fetch the first four students. You have to order the four students alphabetically by last_name.
+select student_id, first_name, last_name, birth_date from students ORDER BY last_name ASC LIMIT 4;
+-- Fetch the details of the youngest student.
+select student_id, first_name, last_name, birth_date from students ORDER BY birth_date DESC LIMIT 1;
+-- Fetch three students skipping the first two students.
+select student_id, first_name, last_name, birth_date from students  LIMIT 3 offset 2

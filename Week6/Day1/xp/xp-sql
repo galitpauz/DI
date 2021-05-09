@@ -1,0 +1,64 @@
+-- Create a database called public.
+
+CREATE TABLE items(
+ item_id SERIAL PRIMARY KEY,
+ item_name VARCHAR (255) NOT NULL,
+ price SMALLINT NOT NULL
+)
+
+
+Small Desk – 100 (ie. price)
+Large desk – 300
+Fan – 80
+
+INSERT INTO items (item_name, price)
+VALUES('Small Desk',100);
+
+INSERT INTO items (item_name, price)
+VALUES('Large Desk',300);
+
+INSERT INTO items (item_name, price)
+VALUES('Fan',80);
+
+
+
+-- Add 5 new customers to the customers table:
+-- Create this table
+CREATE TABLE customers(
+ customer_id SERIAL PRIMARY KEY,
+ first_name VARCHAR (255) NOT NULL,
+ last_name VARCHAR (255) NOT NULL,
+)
+
+INSERT INTO customers (first_name, last_name)
+VALUES('Greg','Jones');
+
+INSERT INTO customers (first_name, last_name)
+VALUES(' Sandra',' Jones');
+
+INSERT INTO customers (first_name, last_name)
+VALUES(' Scott',' Scott');
+
+INSERT INTO customers (first_name, last_name)
+VALUES(' Trevor',' Green');
+
+INSERT INTO customers (first_name, last_name)
+VALUES(' Melanie',' Johnson');
+
+
+
+
+Use SQL to fetch the following data from the database:
+-- All the items. 
+select * from items
+-- All the items with a price above 80 (80 not included). 
+select * from items where price > 80
+-- All the items with a price below 300. (300 included) 
+select * from items where price <= 300
+-- All customers whose last name is ‘Smith’ (What will be your outcome? 0). 
+select * FROM customers where last_name = 'Smith'
+-- All customers whose last name is ‘Jones’. 
+select * FROM customers where last_name = 'Jones'
+-- All customers whose firstname is not ‘Scott’. 
+select * FROM customers where first_name != 'Jones'
+
