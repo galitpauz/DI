@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="add-task">
+        <a class="add-task" href="#myModal">Add Task</a>
+    </div>
+    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h1 class="header">Add Task</h1>
+                <form class="task-form" action="">
+                    <label for="">Title</label></br>
+                    <input id="title" type="text" name=""></br>
+                    <label for="">description</label></br>
+                    <input id="description" type="text"></br>
+                    <label for="startdate">Start date and time:</label>
+                    <input type="datetime-local" id="startdate" id="start" name="startDate" >
+                    <label for="enddate">End date and time:</label>
+                    <input type="datetime-local" id="enddate" id="end" name="endDate" >
+                    <input class="submit" type="submit">
+                    <div class="cancel">
+                        <a class="cancel-btn" href="#close">Cancel</a>
+                    </div>
+                </form>
+            
+               
+            </div>
+        </div>
+    
+        <table class="task-table">
+            <tr>
+                <td class="header">Title</th>
+                <td class="header">task</th>
+            </tr>
+        </table>
+    
+    
+
+    <script src="script.js"></script>
+</html>
